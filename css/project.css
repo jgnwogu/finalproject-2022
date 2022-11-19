@@ -1,0 +1,167 @@
+a.skip {
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+a.skip:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
+  *:focus{
+    border: 2px solid blue;
+  }
+
+.highlighted{
+    font-weight: bolder;
+    font-size: 60px;
+    font-style: italic;
+}
+
+header{
+    background: url(../images/grass.jpg);
+    background-size: contain;
+    border-bottom: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-height: 350px;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    background: url(../images/dirt.jpg);
+    padding: 20px;
+}
+
+nav{
+    font-size: 40px;
+    display: flex;
+    flex-basis: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+ nav li{
+    padding: 20px;
+    list-style-image: url(../images/baseball1.png);
+ }
+  nav li a{
+    font-size: 45px;
+  }
+
+  nav li a:visited{
+    color: black;
+  }
+
+  .faves{ 
+    background: url(../images/dirt.jpg);
+    font-size: 50px;
+    font-weight: 100;
+    display: flex;
+    flex-basis: 450px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 0;
+    align-content: space-evenly;
+  }
+
+  #bbmain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: 450px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    padding: 20px;
+  }
+  #bbmain p{
+    padding:10px;
+  }
+
+  #ajmain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: 450px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    padding: 20px;
+  }
+  #ajmain p{
+    padding:10px;
+  }
+
+  #bhmain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: 450px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: center; 
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    padding: 20px;
+  }
+  #bhmain p{
+    padding:10px;
+  }
+
+  #bbb{
+    background: url(../images/dirt.jpg);
+    border-radius: 10px;
+  }
+  #ajb{
+    background: url(../images/dirt.jpg);
+    border-radius: 10px;
+  }
+  #bhb{
+    background: url(../images/dirt.jpg);
+    border-radius: 10px;
+  }
+
+  footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 900px) {
+
+
+
+  }
+  @media only screen and (min-width: 1200px) {
+
+
+
+
+  }
