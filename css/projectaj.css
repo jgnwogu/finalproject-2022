@@ -41,6 +41,7 @@ nav{
  }
   nav li a{
     font-size: 45px;
+    color:black;
   }
 
   nav li a:visited{
