@@ -90,7 +90,7 @@ nav{
     flex-grow: 0;
     flex-shrink: 1;
     justify-content: center;
-    max-width: fit-content;
+    max-width: 100%;
     max-height: fit-content;
     text-align: center;
     padding: 20px;
@@ -107,7 +107,7 @@ nav{
     flex-grow: 0;
     flex-shrink: 1;
     justify-content: center;
-    max-width: fit-content;
+    max-width: 100%;
     max-height: fit-content;
     text-align: center;
     padding: 20px;
@@ -124,7 +124,7 @@ nav{
     flex-grow: 0;
     flex-shrink: 1;
     justify-content: center; 
-    max-width: fit-content;
+    max-width: 100%;
     max-height: fit-content;
     text-align: center;
     padding: 20px;
