@@ -110,6 +110,7 @@ main{
 .video{
 	display: block;
 	max-width: 100%;
+    height: fit-content;
 	border: 5px outset black;
     overflow: scroll;
 	margin: 0 auto;

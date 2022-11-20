@@ -111,6 +111,7 @@ main{
 .video{
 	display: block;
 	max-width: 100%;
+    height: fit-content;
 	border: 5px outset darkred;
 	margin: 0 auto;
 }
@@ -245,7 +246,6 @@ footer{
   @media only screen and (min-width: 1250px) {
     .gallery{
         display: flex;
-      
         max-width: 100%;
         margin: 10px;
         margin-bottom: 0;
