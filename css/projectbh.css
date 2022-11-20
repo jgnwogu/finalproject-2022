@@ -72,11 +72,12 @@ nav{
 
   .gallery{
     display: flex;
+    margin-left: 5px;
     max-width: 95%;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-
+    padding: 10px;
 }
 
 .gallery img{ 
@@ -261,13 +262,15 @@ footer{
         align-self: center;
         justify-self: center;
         width: 100%;
-        height: 90%;
+        height: 80%;
         border: 6px outset lightblue;
     }
+ 
 
     .gallery div{
         width:28%;
         padding: 15px;
+        height: fit-content;
     }
     
     .nav_links{

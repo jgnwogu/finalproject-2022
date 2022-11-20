@@ -77,6 +77,7 @@ nav{
     grid-template-columns: 90%;
     justify-content: space-evenly;
     gap: 30px;
+    padding: 10px;
 }
 
 .gallery img{ 
@@ -246,9 +247,11 @@ footer{
   }
   @media only screen and (min-width: 1250px) {  
     .gallery{
+        text-align: center;
         display: grid;
-        max-width: 100%;
+        max-width: 90%;
         margin: 10px;
+        margin-left: 30px;
         margin-bottom: 0;
         justify-content: space-evenly;
         grid-template-columns: 1fr 1fr 1fr;
@@ -264,8 +267,8 @@ footer{
     .gallery img{ 
         align-self: center;
         justify-self: center;
-        width: 100%;
-        height: 100%;
+        width: 85%;
+        height: 85%;
         border: 6px outset darkgray;
     } 
 

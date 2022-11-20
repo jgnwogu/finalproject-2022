@@ -166,7 +166,7 @@ nav{
     text-align: center;
   }
 
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 950px) {
 
     header{ 
       padding: 30px;
@@ -180,7 +180,7 @@ nav{
   }
 
   }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1250px) {
 
     .nav_links{
       display: grid;
