@@ -84,7 +84,7 @@ nav{
     justify-self: center;
     width: 100%;
     height: 100%;
-    border: 4px solid black;
+    border: 4px outset darkgray;
 }
 
 h1{
@@ -110,7 +110,7 @@ main{
 .video{
 	display: block;
 	max-width: 100%;
-	border: 2px solid black;
+	border: 5px outset darkgray;
 	margin: 0 auto;
 }
 
@@ -157,7 +157,7 @@ h2{
     font-size: 40px;
 }
 .career img{
-    border: 3px solid darkslategrey;
+    border: 3px groove darkslategrey;
     width: max-content;
     overflow: scroll;
 }
@@ -166,7 +166,7 @@ h2{
     padding: 30px;
     margin: 40px;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px groove black;
 }
 .buttons{
     display: flex;
@@ -227,10 +227,10 @@ footer{
         grid-template-rows: 15% 15% 15% 15% 15%;
         grid-template-columns: 40% 40%;
         gap: 20px;
-        background: darkslategrey;
+        background: black;
         align-content: space-evenly;
         border-radius: 30px;
-        border: 10px solid black;
+        border: 10px groove darkgray;
         padding: 30px;
     }   
     .gallery img{ 
@@ -238,7 +238,7 @@ footer{
         justify-self: center;
         width: 100%;
         height: 100%;
-        border: 10px solid black;
+        border: 6px outset darkgray;
         border-radius: 5px;
     }
 
@@ -252,11 +252,11 @@ footer{
         justify-content: space-evenly;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        row-gap: 30px;
-        background: gray;
+        gap: 30px;
+        background: black;
         align-content: space-evenly;
         border-radius: 30px;
-        border: 10px solid black;
+        border: 10px ridge darkgray;
         padding: 30px;
     }
     
@@ -265,7 +265,7 @@ footer{
         justify-self: center;
         width: 100%;
         height: 100%;
-        border: 5px solid black;
+        border: 6px outset darkgray;
     } 
 
     .nav_links{
