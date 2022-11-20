@@ -75,16 +75,18 @@ nav{
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 
 }
 
 .gallery img{ 
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    width: 100%;
-    height: 95%;
+    text-align: center;
+    width: 90%;
+    height: 90%;
     border: 4px solid lightblue;
+}
+.gallery div{
+    text-align: center;
 }
 
 h1{
