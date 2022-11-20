@@ -72,7 +72,7 @@ nav{
 
   .gallery{
     display: flex;
-    max-width: 100%;
+    max-width: 95%;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
