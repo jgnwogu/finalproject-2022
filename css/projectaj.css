@@ -111,7 +111,7 @@ main{
 .video{
 	display: block;
 	max-width: 100%;
-    height: fit-content;
+    max-height: fit-content;
 	border: 5px outset darkgray;
 	margin: 0 auto;
 }

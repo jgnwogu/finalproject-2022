@@ -112,7 +112,7 @@ main{
 .video{
 	display: block;
 	max-width: 100%;
-    height: fit-content;
+    max-height: fit-content;
 	border: 5px outset darkred;
 	margin: 0 auto;
 }
