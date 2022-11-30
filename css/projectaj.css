@@ -259,8 +259,8 @@ footer{
         margin-left: 30px;
         margin-bottom: 0;
         justify-content: space-evenly;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 30px;
         background: black;
         align-content: space-evenly;
@@ -276,6 +276,22 @@ footer{
         height: 85%;
         border: 6px outset darkgray;
     } 
+
+    .gallery div:nth-child(5){
+        grid-column: 1 / 3;
+    }
+    .gallery div:nth-child(6){
+        grid-column: 3 / 5;
+    }
+    .gallery div:nth-child(7){
+        grid-column: 1 / 3;
+    }
+    .gallery div:nth-child(8){
+        grid-column: 3 / 5;
+    }
+    .gallery div:nth-child(9){
+        grid-column: 2 / 4;
+    }
 
     .nav_links{
         display: grid;

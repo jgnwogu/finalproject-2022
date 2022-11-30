@@ -252,30 +252,35 @@ footer{
   @media only screen and (min-width: 1250px) {
     .gallery{
         display: flex;
+        overflow: scroll;
         max-width: 100%;
         margin: 10px;
         margin-bottom: 0;
-        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        justify-content: left;
         background: darkred;
-        align-content: space-evenly;
+        align-content: center;
         border-radius: 30px;
         border: 10px ridge lightblue;
         padding: 30px;
+        height: 500px;
     }
     
     .gallery img{ 
         align-self: center;
         justify-self: center;
-        width: 100%;
+        width: fit-content;
         height: 80%;
         border: 6px outset lightblue;
     }
  
 
     .gallery div{
-        width:28%;
+        display: flex;
+        align-content: center;
+        width:fit-content;
         padding: 15px;
-        height: fit-content;
+        height: 100%;
     }
     
     .nav_links{
