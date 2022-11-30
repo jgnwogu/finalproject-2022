@@ -115,6 +115,9 @@ main{
 	border: 5px outset darkgray;
 	margin: 0 auto;
 }
+.video:focus{
+    border: 4px dashed blue;
+}
 
 figcaption{
     padding-bottom: 10px;
@@ -174,6 +177,9 @@ h4{
     margin: 40px;
     border-radius: 10px;
     border: 3px groove black;
+}
+.career:focus{
+    border: 4px dashed blue;
 }
 .buttons{
     display: flex;
