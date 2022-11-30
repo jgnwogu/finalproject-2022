@@ -129,14 +129,9 @@ figcaption{
 }
 
 h2{
-    font-family: Monaco, serif;
-    font-size: 50px;
-    font-weight: bold;
+    padding:10px;
     text-align: center;
-    padding: 10px;
-    color: black;
-    -webkit-text-stroke: 0.05px darkgray;
-    color: black;
+    font-size: 40px;
 }
 .bio{
     text-align: center;
@@ -159,9 +154,14 @@ h3{
     font-size: 40px;
 }
 h4{
-    padding:10px;
+    font-family: Monaco, serif;
+    font-size: 50px;
+    font-weight: bold;
     text-align: center;
-    font-size: 40px;
+    padding: 10px;
+    color: black;
+    -webkit-text-stroke: 0.05px darkgray;
+    color: black;
 }
 .career img{
     border: 3px groove darkslategrey;
