@@ -28,9 +28,9 @@
             <h2>MLB Biography</h2>
             <img src = "images/bondsbio.png" alt = "barry bonds biography">
         </div>
-        <figure id = "bondsfig">
+        <figure tabindex="0" id = "bondsfig">
             <figcaption>Barry Bonds Record Breaking Homerun #756</figcaption>
-            <video tabindex="0" class = "video" 
+            <video class = "video" 
                 autoplay
                 width="640" 
                 height="360" 
@@ -40,13 +40,14 @@
                 <track src="bb.vtt" kind="captions" srclang="en" label="english_captions">	
                 Your browser does not support HTML5 video.
             </video>
+            <div class = "buttons"> 
+                <button class = "button" id = "play">Play Video</button>
+                <button class = "button" id = "pause">Pause Video</button>
+                <button class = "button" id= "mute">Mute</button> 
+                <button class = "button" id = "restart">Restart Video</button>
+                </div>
         </figure>
-        <div class = "buttons"> 
-        <button class = "button" id= "mute">Mute</button> 
-        <button class = "button" id = "play">Play Video</button>
-        <button class = "button" id = "pause">Pause Video</button>
-        <button class = "button" id = "restart">Restart Video</button>
-        </div>
+        
         <div class = "careerp">
             <h3> Career Stats </h3>
         </div>
