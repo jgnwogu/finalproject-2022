@@ -254,6 +254,9 @@ footer{
         border: 6px outset darkgray;
         border-radius: 5px;
     }
+    header{
+        min-height: 250px;
+    }
 
   }
   @media only screen and (min-width: 1250px) {  
@@ -321,6 +324,7 @@ footer{
         border-radius: 10px;
         border: 3px solid black;
     }
-
-   
+    header{
+        min-height: 200px;
+    }
   }

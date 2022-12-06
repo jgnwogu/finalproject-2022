@@ -170,6 +170,7 @@ nav{
 
     header{ 
       padding: 30px;
+      min-height: 300px;
       background: url(../images/grass.jpg);
       display: flex;
       flex-direction: row;
@@ -188,6 +189,9 @@ nav{
       grid-template-columns: 25% 25% 25% 25%;
       justify-items: space-between;
    }
+   header{
+    min-height: 281px;
+}
 
 
   }
